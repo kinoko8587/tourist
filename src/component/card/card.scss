@@ -1,0 +1,48 @@
+.card {
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 15px;
+  height: 290px;
+  width: 330px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.04);
+  .share {
+    position: relative;
+    left: 280px;
+    bottom: 265px;
+    > img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .content {
+    > div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  > span {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.25px;
+  }
+  .name {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #222222;
+  }
+}
+
+img {
+  width: 330px;
+  height: 182px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

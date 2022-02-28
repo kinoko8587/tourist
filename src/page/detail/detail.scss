@@ -1,0 +1,44 @@
+.detail-page {
+  margin: 24px 40px;
+  .title {
+    display: inline-flex;
+    align-items: center;
+    > span {
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 33px;
+      line-height: 36px;
+    }
+    > img {
+      cursor: pointer;
+    }
+  }
+  > img {
+    margin: 12px 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  > span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #3fb195;
+    margin: 10px 0px;
+  }
+  .contact {
+    padding: 5px 10px;
+    background: rgba(63, 177, 149, 0.08);
+    border-radius: 8px;
+    > div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 8px;
+      > span {
+        margin-left: 5px;
+      }
+    }
+  }
+}
