@@ -10,7 +10,7 @@ import arrowIcon from "../../image/icon/arrow.png";
 function Detail(props) {
   const navigate = useNavigate();
   const handleOnClick = useCallback(
-    () => navigate("/", { replace: true }),
+    () => navigate("/tourist", { replace: true }),
     [navigate]
   );
   const { state } = useLocation();

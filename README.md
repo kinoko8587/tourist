@@ -1,3 +1,7 @@
+# 2021 THE F2E Week 1 - 台灣旅遊景點導覽
+## Designed by jhen.
+https://2021.thef2e.com/users/6296427084285739194/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

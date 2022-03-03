@@ -8,7 +8,7 @@ import React, { useCallback } from "react";
 function Card(props) {
   const navigate = useNavigate();
   const handleOnClick = useCallback(
-    () => navigate("/detail", { state: props.data, replace: true }),
+    () => navigate("/tourist/detail", { state: props.data, replace: true }),
     [navigate]
   );
   return (
