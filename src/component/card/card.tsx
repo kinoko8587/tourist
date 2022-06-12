@@ -3,7 +3,7 @@ import locationIcon from "../../image/icon/location.png";
 import timeIcon from "../../image/icon/time.png";
 import shareIcon from "../../image/icon/share.png";
 import { useNavigate } from "react-router-dom";
-import React, { useCallback } from "react";
+import  { useCallback } from "react";
 
 function Card(props) {
   const navigate = useNavigate();
@@ -14,7 +14,7 @@ function Card(props) {
   return (
     <div className="card" onClick={handleOnClick}>
       <img src={props.picture} alt="img" />
-      <div className="content">
+      <div className="detail">
         <span className="name">{props.name}</span>
         <div>
           <img src={locationIcon} className="icon" alt="location" />

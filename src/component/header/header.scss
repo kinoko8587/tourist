@@ -1,4 +1,5 @@
 .header {
+  position: fixed;
   width: 100%;
   height: 56px;
   background: #ffffff;
@@ -45,16 +46,33 @@
   }
 
   .topic {
-    margin: 10px 30px;
+    border: 1px solid white;
+    margin:5px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 8px;
+
     > img {
       width: 70px;
       height: 70px;
     }
+    &.isSelected{
+      border: 1px solid #3FB195;
+      border-radius: 8px;   
+    }
   }
+  .button{
+    background: #3FB195;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+    color: #FFFFFF;
+    }
 }
 .title {
   font-weight: bold;
@@ -72,4 +90,5 @@
 }
 .line {
   border: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 24px 0px;
 }

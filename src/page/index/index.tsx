@@ -3,13 +3,13 @@ import banner from "../../image/banner.png";
 import location from "../../image/location.png";
 import Card from "../../component/card/card";
 import React, { useState, useEffect } from "react";
-
 import {
   getScenicSpot,
   getRestaurant,
   getHotel,
   getActivity,
 } from "../../api/index";
+
 function Index(props) {
   const [scenicSpotData, setData] = useState([]);
   const [restaurantData, setRestaurantData] = useState([]);
@@ -36,6 +36,7 @@ function Index(props) {
       .filter((x, index) => x.Picture && index < 3)
       .map((x) => (
         <Card
+          key={x.name}
           data={x}
           name={x.Name}
           picture={x.Picture}

@@ -11,12 +11,18 @@
 }
 
 .container {
+  min-height: 100%;
+  margin-left: 320px;
+  position: relative;
   width: 100%;
+  height: fit-content;
   overflow-x: hidden;
   overflow-y: scroll;
+  padding-bottom: 30px;
 }
 
 footer {
+  position:absolute;
   bottom: 0;
   background-color: #3fb195;
   color: #fff;

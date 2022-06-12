@@ -1,0 +1,58 @@
+.selector {
+  .icon {
+    position: absolute;
+    right: 10px;
+  }
+  .cancel-icon{
+    margin-left: 10px;
+    width: 14px;
+    height: 14px;
+  }
+  span {
+    &.default{
+      color: rgba(0, 0, 0, 0.38);
+    }
+  }
+  .dropdown {
+    cursor: pointer;
+    background: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+  }
+  .dropdown-list {
+    display: none;
+    &.show {
+      background: #ffffff;
+      box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.04);
+      border-radius: 12px;
+      z-index: 1;
+      position: absolute;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: center;
+      justify-content: flex-start;
+    }
+
+    > div {
+      cursor: pointer;
+      width: 78px;
+      margin: 5px 8px;
+      border: 1px solid #3fb195;
+      box-sizing: border-box;
+      border-radius: 8px;
+      padding: 8px;
+      text-align: center;
+      &:hover {
+        background: #3fb195;
+        color: #fff;
+      }
+    }
+  }
+}
